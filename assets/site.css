@@ -30,7 +30,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hdr { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid color-mix(in srgb, var(--line) 80%, transparent); background: color-mix(in srgb, var(--ink) 90%, transparent); backdrop-filter: blur(12px); }
 .hdr-in { display: flex; height: 4rem; align-items: center; justify-content: space-between; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: .65rem; font-weight: 500; }
-.mark { width: 2rem; height: 2rem; flex-shrink: 0; }
+.mark { width: 2rem; height: 2rem; flex-shrink: 0; border-radius: .35rem; object-fit: cover; }
 .nav-desk { display: none; align-items: center; gap: .25rem; }
 .nav-desk a { padding: .5rem .75rem; border-radius: .25rem; font-size: .875rem; color: var(--muted); }
 .nav-desk a:hover, .nav-desk a[aria-current="page"] { color: var(--fg); }
